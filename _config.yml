@@ -18,8 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: UQ MARS Blog Site
-email: tech@uqmars.com
+title: UQ MARS Blog
+author:
+  name: UQ Mechatronics and Robotics Society
+  email: tech@uqmars.com
 description: >- # this means to ignore newlines until "baseurl:"
   This blog is used to document and keep track of the notable activities of the UQ MARS community.
   This can include write-ups of flagship events, notable projects, or any other feats from the
@@ -30,9 +32,25 @@ url: "https://uqmars.com" # the base hostname & protocol for your site, e.g. htt
 github_username:  uqmars
 
 # Build settings
-theme: jekyll-theme-hacker
+# theme: jekyll-theme-hacker
+remote_theme: jekyll/minima
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
+
+minima:
+  skin: auto
+  social_links:
+    - title: Linktree
+      icon: linktree
+      url: "https://linktr.ee/uqmars"
+    - title: Discord
+      icon: discord
+      url: "https://discord.gg/QKwDnZSZhq"
+    - title: GitHub
+      icon: github
+      url: "https://github.com/uqmars"
+  show_excerpts: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
