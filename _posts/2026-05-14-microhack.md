@@ -18,10 +18,14 @@ Saturday was the big grind day, where many students found themselves deep in cod
 
 On the final day, a pitching workshop was held as students finalised their projects and did a 5 minute presentation in front of all the judges and participants.
 
-{% include figure.html img_path="/assets/images/2026/MH-2.jpg"%}
-{% include figure.html img_path="/assets/images/2026/MH-3.jpg"%}
-{% include figure.html img_path="/assets/images/2026/MH-10.jpg"%}
-{% include figure.html img_path="/assets/images/2026/MH-4.jpg"%}
+{% include figure.html 
+    img_path="
+        /assets/images/2026/MH-2.jpg,
+        /assets/images/2026/MH-3.jpg,
+        /assets/images/2026/MH-10.jpg,
+        /assets/images/2026/MH-4.jpg
+    "
+%}
 
 ### Participating Teams
 - Airshott; Using your fingers for an arcade game
@@ -48,7 +52,11 @@ On the final day, a pitching workshop was held as students finalised their proje
 
 We thank the co-hosts and volunteers, as well as all the participants over the weekend.
 
-{% include figure.html img_path="/assets/images/2026/MH-6.jpg"%}
-{% include figure.html img_path="/assets/images/2026/MH-7.jpg"%}
-{% include figure.html img_path="/assets/images/2026/MH-8.jpg"%}
-{% include figure.html img_path="/assets/images/2026/MH-9.jpg"%}
+{% include figure.html 
+    img_path="
+        /assets/images/2026/MH-6.jpg,
+        /assets/images/2026/MH-7.jpg,
+        /assets/images/2026/MH-8.jpg,
+        /assets/images/2026/MH-9.jpg
+    "
+%}
